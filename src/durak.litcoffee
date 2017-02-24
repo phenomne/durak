@@ -24,30 +24,6 @@ Module
 Game
 ----
 
-@player_id   | Number      | Unique incremented value |
-@history_id  | Number      |                          |
-@local_id    | Number      |                          |
-@telegram_id | Number      |                          |
-@wallet_id   | Number      |                          |
-@card_id     | Number      | from 0 to 35 (to 51)     |
-@artificial  | Boolean     | AI Player if *true*      |
-@suit        | Number      | from 0 to 3              |
-@level       | Number      | from 0 to 8 (to 12)      |
-@name        | Object      | {@local_id:String}       |
-@image_url   | String      | 'http://q.org/i.pmg'     |
-@game_id     | Number      | Unique incremented value |
-@hands       | Object      | {@player_id:[@card_ids]} |
-@bet         | Number      | Amount of money (BTC)    |
-@deck        | Array       | of @card_ids             |
-@talon       | Number      | @card_id (trump)         |
-@kick        | Array       | of @card_ids             |
-@players     | Array       | List of players_ids      |
-@status      | Object      | {0:load, 1:game, 2:over} |
-@nick_name   | String      |                          |
-@created     | String      |                          |
-@logo_url    | String      |                          |
-@btc_address | String      |                          |
-
     Game =
 
 ### Analyze game and suggest user action
@@ -126,7 +102,7 @@ Game
 ###
 
           join: (game_id) ->
-            
+
 
 ###
 
