@@ -18,11 +18,8 @@ Usage
 
 - Markdown Cheatsheet: [github.com/adam-p](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 - The Little Book on CoffeeScript: [arcturo.github.io](https://arcturo.github.io/library/coffeescript/index.html)
-- [DRAKON](https://en.wikipedia.org/wiki/DRAKON) is an algorithmic
-visual programming language developed within the Buran space project
-following ergonomic design principles. The language provides a uniform
-way to represent [flowcharts](https://en.wikipedia.org/wiki/Flowchart)
-of any complexity that are easy to read and understand.
+- [DRAKON](https://en.wikipedia.org/wiki/DRAKON) is an algorithmic visual programming language
+- [Podkidnoy Durak](https://www.pagat.com/beating/podkidnoy_durak.html) - rules
 
 
 MIT License

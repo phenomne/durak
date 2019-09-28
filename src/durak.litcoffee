@@ -128,5 +128,8 @@ Game
 
           send: (wallet_id, value, btc_address) ->
 
+User
+----
+
     class User extends Module
       @extend Game
